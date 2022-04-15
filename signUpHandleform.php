@@ -34,7 +34,7 @@ try {
 
     if($row = $stmt->fetch(PDO::FETCH_ASSOC)){
         echo "<h1>Email already used</h1>";
-        echo "<a href = 'signUp.html'>Sign Up</a>";
+        echo "<a href = 'signUp.php'>Sign Up</a>";
     }   
     else {
         $sql = "INSERT INTO `users`(`Username`, `Password`, `Email`) VALUES ('$Username', '$Password', '$Email')";
