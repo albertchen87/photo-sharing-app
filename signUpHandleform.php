@@ -40,7 +40,7 @@ try {
         $sql = "INSERT INTO `users`(`Username`, `Password`, `Email`) VALUES ('$Username', '$Password', '$Email')";
         $conn->query($sql);
         echo "Inserted successfully"."<br>";
-        echo "<a href = 'login.html'>Login</a>";
+        echo "<a href = 'login.php'>Login</a>";
     }
 
 
