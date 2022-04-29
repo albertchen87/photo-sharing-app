@@ -42,7 +42,7 @@
             }
             else {
                 echo "<h1>Email or password is incorrect2</h1>";
-                echo "<a href = 'login.php'>Login</a>";
+                echo "<a href = 'logIn.php'>Login</a>";
             }
         }
         else {
